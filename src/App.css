@@ -1,0 +1,31 @@
+/* App.css */
+.navbar {
+  background-color: #c52525;
+  padding: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-item a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: rgb(255, 162, 146);
+}
+
+.nav-item a.active {
+  font-weight: bold;
+  color: rgb(116, 193, 49); 
+}
